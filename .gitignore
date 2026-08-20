@@ -1,0 +1,4 @@
+node_modules/
+# template/ is committed here (this repo is a public mirror; see scripts/bundle-template.mjs).
+# The private monorepo's templates/web-app-secureflows is still the source of truth.
+*.tgz

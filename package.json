@@ -1,0 +1,42 @@
+{
+  "name": "create-secureflows-app",
+  "version": "0.1.0",
+  "description": "Scaffold a working secureFlows integration (React + TypeScript + Vite) with hosted login, an unguarded callback route, and correct session handling already wired up.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-secureflows-app": "./bin/create-secureflows-app.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "template",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "secureflows",
+    "secure-flows",
+    "create-app",
+    "scaffold",
+    "starter",
+    "react",
+    "vite"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michal-lefler/create-secureflows-app.git"
+  },
+  "homepage": "https://www.secure-flows.com",
+  "bugs": {
+    "url": "https://github.com/michal-lefler/create-secureflows-app/issues"
+  },
+  "scripts": {
+    "bundle-template": "node scripts/bundle-template.mjs",
+    "test": "node --test test/*.test.mjs",
+    "prepack": "npm run bundle-template"
+  }
+}
