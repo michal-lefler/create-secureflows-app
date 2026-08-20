@@ -2,13 +2,13 @@
 
 [![secureFlows](https://img.shields.io/badge/secureFlows-www.secure--flows.com-1a73e8)](https://www.secure-flows.com)
 
-> This repo is a public mirror, published periodically from the private secureFlows monorepo
-> where development actually happens. Issues and PRs are welcome; large changes may take a
-> release cycle to land upstream first.
-
 Scaffolds a working [secureFlows](https://www.secure-flows.com) integration — React + TypeScript +
 Vite, with hosted login, an unguarded `/callback` route, and correct session/sign-out handling
 already wired up.
+
+> This repo is a public mirror, published periodically from the private secureFlows monorepo
+> where development actually happens. Issues and PRs are welcome; large changes may take a
+> release cycle to land upstream first.
 
 ```bash
 npx create-secureflows-app my-app --workspace=<workspace> --app-id=<appId>
