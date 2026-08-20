@@ -1,6 +1,6 @@
 # create-secureflows-app
 
-[![secureFlows](https://img.shields.io/badge/secureFlows-www.secure--flows.com-1a73e8)](https://www.secure-flows.com)
+[![secureFlows](https://img.shields.io/badge/secureFlows-www.secure--flows.com-1a73e8)](https://www.secure-flows.com) [![CI](https://github.com/michal-lefler/create-secureflows-app/actions/workflows/ci.yml/badge.svg)](https://github.com/michal-lefler/create-secureflows-app/actions/workflows/ci.yml)
 
 Scaffolds a working [secureFlows](https://www.secure-flows.com) integration — React + TypeScript +
 Vite, with hosted login, an unguarded `/callback` route, and correct session/sign-out handling
