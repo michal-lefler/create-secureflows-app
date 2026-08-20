@@ -17,6 +17,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-      - run: npm ci
+          # No cache: npm — this package has zero dependencies, so there's no package-lock.json
+          # for actions/setup-node to key the cache on (and npm ci would fail for the same reason).
+      - run: npm install
       - run: npm test
